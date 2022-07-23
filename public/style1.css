@@ -1,0 +1,144 @@
+/*
+    Body, header, about and gallary 
+*/
+*{
+    margin:0;
+}
+body{
+	background:#353030;
+}
+header {
+	background-color: #fff;
+	font-size: 35px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Century Gothic', times;
+	padding: 10px;
+}
+.about{
+    width: 90%;
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+	margin: auto;
+    margin-top: 2em;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 1em;
+}
+.gallary{
+    overflow-y: auto;
+    border-radius: 1em;
+    background-color: #fff;
+    padding: 10px;
+	margin: auto;
+	text-align: center;
+    margin-top: 2em;
+    width:90%;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+}
+.img-profile{
+    height: 300px;
+    width: 250px;
+    box-shadow: 1px 2px 15px #00000084;
+}
+aside{
+	width:30%;
+	margin:auto;
+	text-align:center;
+	font-family:cursive;
+	float:none;
+	padding:10px;
+
+}
+
+footer {
+  padding: 10px;
+  font-family:cursive;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000000;
+}
+.motto{
+	font-weight: bold;
+	text-decoration: underline;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.desc{
+    margin: 20px;
+    font-size: 25px;
+    font-family: hel;
+}
+
+/* nav elements */
+
+.nav{
+    display: flex;
+    background-color: #fff;
+}
+
+.nav-space{
+    width: 40vw;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: verdana;
+    margin: 5px 0; 
+    display : inline-block; 
+    color: #000000; 
+    text-align: center;
+    transition: 100ms;
+    padding: 1em ;
+    text-overflow: ellipsis;
+}
+ 
+.nav a:hover{ 
+    color: #cb2f2f; 
+}
+
+.a, .b, .c , .d, .e{
+    border-radius: 75px;
+}
+
+.row{
+    display:flex;
+    overflow-x: hidden;
+    height: 80vh;
+    align-items: flex-start;
+}
+
+.col-9{
+    min-width: 60%;
+}
+.col-3{
+    min-width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card{
+    margin-top: 2em;
+    background:#fff;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 1px 2px 15px rgba(0,0,0,.2);
+    text-align: center;
+}
+.profile-card h3{
+    margin: 1em 0;
+}
+
+.tags-p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+.tag-names{
+    font-weight: bold;
+    line-height: 1.6;
+}

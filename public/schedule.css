@@ -1,0 +1,161 @@
+/* Audio and video files*/
+
+.file{
+	background-color: slategray;
+    padding: 10px;
+    text-align: center;
+	margin: auto;
+    margin-top: 2%;
+	margin-bottom: 2%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+/*  Table data  */
+
+.schedule{ 
+	
+	background-color: #fff;
+	padding: 3%;
+	border-radius: 1em;
+	margin: 2em 2em auto;
+}
+table{
+	table-layout: fixed;
+	width: 80%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	box-shadow: 0 2px 15px rgba(64,64,64,.7);
+	overflow: hidden;
+	margin : auto;
+	margin-top: 1%;
+}
+caption{
+	text-align: center;
+	margin-bottom: 2%;
+	font-size:30px;
+	font-weight:bold;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+}
+th{
+ background-color: slategray;
+ color: white;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 100;
+ text-transform: uppercase;
+}
+tr{
+ width: 100%;
+ background-color: #FAFAFA;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+
+/*  Form values  */
+
+.feedback .input_field{
+  margin-bottom: 10px;
+}
+
+.feedback .input_field input,
+.feedback textarea{
+  border: 1px solid #e0e0e0;
+  width: 90%;
+  padding: 10px;
+ 
+}
+.input_field textarea ,.input_field input{
+	border-radius: 15px;
+}
+.input_field textarea{
+  resize: none;
+  height: 80px;
+}
+ .btn button{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background: #39dd49;
+  color: #fffdf5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+.feedback {
+  border-radius: 1em;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  color: #332902;
+  font-weight: bold;
+  cursor: pointer;
+  margin: auto;
+  margin-top:2em;
+  font-family: 'Century Gothic' , sans-serif;
+  
+}
+#question{
+	float: left;
+	margin-left: 4%;
+}
+
+#error_message, #error_game{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+/*  Canvas  */
+
+canvas {
+	background-color: rgb(19, 206, 175);
+	width: 90%;
+	height: 90%;
+	border-radius: 50px;
+}
+
+.gamebtn {
+	background: #39b7dd;
+	color: black;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 50px;
+	text-align: center;
+	margin: 2% ;
+}
+
+.gamebtn:hover {
+		background-color: black;
+		color: white;
+		width: 20%;
+}
+
+.gameplay {
+	background: white;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	border-radius: 15px;
+}

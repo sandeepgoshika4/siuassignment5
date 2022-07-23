@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link type="text/css" rel="stylesheet" href="style1.css">
+	<link type="text/css" rel="stylesheet" href="schedule.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="gameScript.js"></script>
+	<script type="text/javascript" src="navigationScript.js"></script>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sandeep Goshika">
+	<meta name="description" content="My Profile">
+	<title>My Profile</title>
+</head>
+<body>
+
+<!-- Creating multiple pages-->
+	<div class="nav">
+		<a href="">Sandeep</a>
+		<div class="nav-space"></div>
+		<a class="a active" href="#about">ABOUT ME</a>
+		<a class="b" href="#gallary">GALLERY</a>
+		<a class="c" href="#feedback">FEEDBACK</a>
+		<a class="d" href="#schedule">SCHEDULE</a>
+		<a class="e" href="#gameplay">PLAY GAME</a>
+	</div>
+
+
+	<div class="row">
+		<div class="col-3">
+			<div class="profile-card">	
+				<figure><img src="profile.jpeg" class="img-profile" alt="DP"></figure>
+				<h2>Sandeep Goshika</h2>
+				<hr>
+				<div class="tags-p">
+					<span class="tag-names">Dwag tag : </span><span>856511631</span><br>
+					<span class="tag-names">Course : </span><span>Masters</span><br>
+					<span class="tag-names">Department : </span><span>School of Computing</span><br>
+				</div>
+			</div>
+		</div>
+		<div class="col-9">
+			<div class="about" id="about">
+				<h1>Knowing is not enough, Just apply it.</h1>
+				<h3 style="text-align: left">About Me</h3><br>
+				<blockquote cite="http://www.worldwildlife.org/who/index.html" style="text-align: left">
+					I am Sandeep Goshika, pursuing a Master's in Computer Science and Graduate
+					Assistant from the School of Computing. My hobbies are exploring new
+					technology, which is used to improve my knowledge, Exercise, which keeps me
+					in shape and Exploring New places, which gives me pleasure and excitement. I
+					worked for two IT Companies after my undergraduate role as Software
+					Developer. I have experience in Java, Android Application development, and
+					Spring Framework.
+				</blockquote><br>
+				<h3 style="text-align: left">Skills</h3><br>
+				<ul style="text-align: left">
+					<li>Hands-on experience of Cloud solutions like<strong>
+						Amazon Web Services( S3,Ec2, SNS)</strong>
+						,Firebase and Azure.
+					</li>
+					<li>Demonstrable knowledge of<strong> HTTP/S and
+						how apps interact with RestFul APIs via JSON.</strong>
+					</li>
+					<li><strong>Intent)Services, Android SDK, Android
+						Studio, Broadcast Receivers.</strong></li>
+					<li>Google Play Services, Gradle,<strong> MVP/MVVM,
+						ViewModel, Databinding.</strong></li>
+				</ul>
+			</div>
+		
+		
+			<div class="gallary" id="gallary">
+				<h1>My Recent Vacation</h1>
+				<p>
+						
+				</p><br />
+				<div class="picture">
+					<img src="chicago1.jpg" alt="Picture" width="220" height="200">
+					<div class="desc">River Architecture Tour	</div>
+				</div>
+		
+				<div class="picture">
+					<img src="chicago2.jpg" alt="Picture" width="220" height="200">
+					<div class="desc">Suncet Cruise</div>
+				</div>
+		
+				<div class="picture">
+					<img src="chicago3.jpg" alt="Picture" width="220" height="200">
+					<div class="desc">Chicago</div>
+				</div>
+		
+				<div class="file" id="file">
+					<h1>My Favourite Song</h1>
+					<audio controls loop>
+						<source src="TheBox.mp3" type="audio/webm">
+					</audio><br><br>
+					<h1>My Favourite Video</h1>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YcQ38mUMIWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		
+			</div>
+						
+			<!-- Daily Schedule-->
+			
+				
+			<div class="schedule" id="schedule">
+				<table>
+					<caption>My Daily Routine</caption><br>
+						<tr>
+							<th>Time Period</th>
+							<th>No. of Hours</th>
+							<th>Tasks completed</th>
+						</tr>
+						<tr>
+							<td>9:00am-11:30am</td>
+							<td>2 hours 30 min</td>
+							<td>Workout and Breakfast	</td>
+						</tr>
+						<tr>
+							<td>11:30am-12:30pm</td>
+							<td>1 hour</td>
+							<td>small works</td>
+						</tr>
+						<tr>
+							<td>12:30pm-1:00pm</td>
+							<td>30 min</td>
+							<td>Break</td>
+						</tr>
+						<tr>
+							<td>1:00pm-4:00pm</td>
+							<td>3 hours</td>
+							<td>Lunch & Assignments</td>
+						</tr>
+						<tr>
+							<td>4:00pm-6:00pm</td>
+							<td>2 hours</td>
+							<td>Play some games</td>
+						</tr>
+						<tr>
+							<td>6:00pm-8:00pm</td>
+							<td>2 hours</td>
+							<td>Prepare Dinner and get readu for bed</td>
+						</tr>
+						<tr>
+							<td>8pm-9pm</td>
+							<td>1 hour</td>
+							<td>Have Dinner</td>
+						</tr>
+						<tr>
+							<td>9pm-11pm</td>
+							<td>2 hours</td>
+							<td>Watch movies or play games</td>
+						</tr>
+				</table>
+			</div>
+		
+			<!--Feedback Form-->
+		
+			<div class="feedback" id="feedback">
+					<h1>Feedback Form</h1>
+						<div id="error_message"></div>
+						<form id="myform" >
+							<div class="input_field">
+							 <label for="name" id="question">NAME:</label>
+							 <input type="text" id="name" required>
+						   </div>
+							<div class="input_field">
+							<label for="address" id="question">ADDRESS:</label>
+							 <input type="text" id="address" required>
+						   </div>
+							 <div class="input_field">
+							<label for="age" id="question">AGE:</label><br />
+							<input type="number" id="age" min="1" max="101" required>
+						   </div>
+							<div class="input_field">
+							 <label for="phone" id="question">PHONE:</label>
+							   <input type="tel" id="phone" required>
+						   </div>
+							<div class="input_field">
+							 <label for="email" id="question">EMAIL ID:</label>
+							  <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+						   </div>
+							<div class="input_field">
+							<label for="comments" id="question">COMMENTS:</label>
+							  <textarea id="comments"></textarea>
+						   </div>
+							<div class="btn">
+							   <button type="submit" id="sent">Submit</button>
+						   </div>
+			 </div>
+		
+			<!-- Game code -->
+		
+			<div class="gameplay" id="gameplay">
+				<h1 style="color: gray;">Please click on 4 random locations inside this box to envision my shape-changing magic in action.</h1>
+				<div id="error_game"></div>
+				<canvas id="canvas" onclick="return showCoords(canvas, event);" width="500px" height="440px">
+		
+				</canvas>
+				<button class="gamebtn" id="startbtn" onclick="return StartFunction();"> START</button>
+				<button class="gamebtn" onclick="return StopFunction();"> STOP</button>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<aside>
+				<p>School of Computing
+				<br>sandeep.goshika@siu.edu
+				</p>
+			</aside>
+		</footer>
+		<script type="text/javascript" src="validationScript.js"></script>
+	</body>
+</html>
