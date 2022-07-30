@@ -1,10 +1,14 @@
 const contactForm = document.querySelector('.feedback');
 
 var fname = document.getElementById('name');
+// var lname = document.getElementById('lname');
 var address = document.getElementById('address');
 var phone = document.getElementById('phone');
 var email = document.getElementById('email');
 var comment = document.getElementById('comments');
+
+
+
 
 
 contactForm.addEventListener('submit', (e) => {
@@ -74,3 +78,11 @@ contactForm.addEventListener('submit', (e) => {
     
 
    
+
+   
+
+
+
+
+
+
