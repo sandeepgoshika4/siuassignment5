@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 const nodemailer = require("nodemailer");
+var cors = require('cors');
 const PORT = process.env.PORT || 3000;
 const mongoose = require('mongoose');
+
+app.use(cors())
 
 const url = `mongodb+srv://sandeepgoshika3:Ojas1525@siuassignment.muklr0t.mongodb.net/?retryWrites=true&w=majority`;
 
